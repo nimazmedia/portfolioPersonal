@@ -1,0 +1,84 @@
+/* GALERIAS */ 
+/* Galerias HTML */
+.galerias {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    img {
+        width: 470px;
+        opacity: 50%;
+        border: solid 2px #161616;
+    }
+    img:hover {
+        opacity: 100%;
+    }
+}
+
+.galerias--FadeIn {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+/* Galerias Articulos */
+.galeriaPortadas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.galeriaArticulos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin: 0 100px;
+}
+
+.galeriaArticulos__IMG {
+    opacity: 75%;
+    object-fit: contain;
+}
+
+.galeriaArticulos__IMG:hover {
+    opacity: 100%;
+}
+
+/* Galerias Portfolio */
+.nombreGaleria {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.galeriaCont {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
+
+.galeriaCont__IMG {
+    opacity: 85%;
+    object-fit: contain;
+}
+
+.galeriaCont__IMG:hover {
+    opacity: 100%;
+}
+
+/* Galeria Medios */
+.galleryCont_Medios .galerias--FadeIn {
+    animation: fadeIn;
+    animation-duration: 4s;
+}
+
+/* Fade In */
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,130 @@
+// VARIABLES
+$negro: #141415;
+$blanco: #E7E7E7;
+$verde: #6da73b;
+
+
+body {
+    background-color: $negro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $blanco;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header */
+
+header {
+    background-color: #000000;
+    height: 100%;
+}
+
+/* Navegacion */
+
+nav {
+    padding: 1px;
+    ul {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: bold;
+        li {
+            text-align: center;
+            margin: 0 10px 0 0;
+            padding-right: 10px;
+        }
+    }
+}
+
+/* Form */
+form {
+    margin-bottom: 4%;
+}
+
+/* Footer */
+footer {
+    @extend header;
+    text-align: center;
+    padding: 10px 0;
+    a {
+        text-decoration: none;
+    }
+    a:visited {
+        color: $blanco;
+    }
+    a:hover {
+        color: $verde;
+    }
+    a:link {
+        color: $blanco;
+    }
+}
+
+/* Modal */
+.modal-title {
+    font-size: 20px;
+    color: $negro;
+    text-transform: initial;
+}
+
+.modal-body {
+    color: $negro;
+}
+
+/* Otras Clases */
+article {
+    color: $blanco;
+    text-align: justify;
+    margin: 0 50px;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.subDescp {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.contacto {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.tipoServ {
+    margin: 0 5%;
+}
+
+.portadas {
+    display: block;
+    margin: 0 auto;
+}
+
+.b-example-divider {
+    height: 2rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.fotosBorder {
+    border: solid 2px #e7e7e7;
+}
+
+// IMPORT
+@import "titulos";
+@import "galerias";
+@import "testimonios";
+@import "responsive";
