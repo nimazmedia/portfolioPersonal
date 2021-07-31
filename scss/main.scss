@@ -67,6 +67,10 @@ footer {
     }
 }
 
+.copy {
+    font-size: 15px;
+}
+
 /* Modal */
 .modal-title {
     font-size: 20px;
@@ -127,4 +131,5 @@ article {
 @import "titulos";
 @import "galerias";
 @import "testimonios";
+@import "icons";
 @import "responsive";

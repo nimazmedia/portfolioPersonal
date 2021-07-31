@@ -45,6 +45,9 @@ footer {
   footer a:link {
     color: #E7E7E7; }
 
+.copy {
+  font-size: 15px; }
+
 /* Modal */
 .modal-title {
   font-size: 20px;
@@ -170,6 +173,19 @@ h5 {
   animation: fadeIn;
   animation-duration: 4s; }
 
+/* Experiencias */
+.exper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center; }
+  .exper img {
+    opacity: 90%;
+    border: solid 3px #E7E7E7;
+    margin-top: 5px; }
+  .exper img:hover {
+    opacity: 100%;
+    border: solid 10px #E7E7E7; }
+
 /* Fade In */
 @keyframes fadeIn {
   0% {
@@ -218,6 +234,12 @@ h5 {
 
 .testi-item h3 {
   text-transform: capitalize; }
+
+.fa {
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none; }
 
 /* Media Query */
 @media (max-width: 1024px) {
