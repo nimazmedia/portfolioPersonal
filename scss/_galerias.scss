@@ -21,12 +21,6 @@
 }
 
 /* Galerias Articulos */
-.galeriaPortadas {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
-}
-
 .galeriaArticulos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -62,12 +56,6 @@
 
 .galeriaCont__IMG:hover {
     opacity: 100%;
-}
-
-/* Galeria Medios */
-.galleryCont_Medios .galerias--FadeIn {
-    animation: fadeIn;
-    animation-duration: 4s;
 }
 
 /* Experiencias */ 

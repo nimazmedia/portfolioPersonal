@@ -133,11 +133,6 @@ h5 {
   animation-duration: 2s; }
 
 /* Galerias Articulos */
-.galeriaPortadas {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px; }
-
 .galeriaArticulos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -167,11 +162,6 @@ h5 {
 
 .galeriaCont__IMG:hover {
   opacity: 100%; }
-
-/* Galeria Medios */
-.galleryCont_Medios .galerias--FadeIn {
-  animation: fadeIn;
-  animation-duration: 4s; }
 
 /* Experiencias */
 .exper {
@@ -257,19 +247,11 @@ h5 {
     text-transform: uppercase; }
   .card-title {
     font-size: 25px; }
-  /* Carrusel */
-  .carousel-descp {
-    font-size: 12px; }
   /* GALERIAS */
   .galeriaCont {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    grid-gap: 5px;
-    margin: 0 5px; }
-  .galeriaPortadas {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
     margin: 0 5px; }
   .galeriaArticulos {
@@ -285,13 +267,6 @@ h5 {
     text-align: center;
     padding-top: 10px;
     height: 100%; }
-  /* Class */
-  .infoBox {
-    display: flex;
-    flex-flow: column wrap;
-    align-content: center;
-    grid-gap: 5px;
-    margin: 0 10px; }
   /* Testimonials */
   .testi-img .img-box {
     max-width: 300px; }
@@ -313,8 +288,6 @@ h5 {
     font-size: 35px;
     font-weight: bolder;
     text-transform: uppercase; }
-  .carousel-descp {
-    display: none; }
   /* Galerias */
   .galeriaCont {
     display: grid;
@@ -376,12 +349,6 @@ h5 {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase; }
-  /* Carrusel */
-  #carouselExampleDark .carousel-item img {
-    object-fit: cover;
-    object-position: center;
-    height: 30vh;
-    overflow: hidden; }
   /* Galerias */
   .galeriaCont {
     display: grid;
