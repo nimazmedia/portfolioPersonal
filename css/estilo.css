@@ -28,7 +28,7 @@ nav {
       margin: 0 10px 0 0;
       padding-right: 10px; }
 
-/* Form */
+/* Formulario */
 form {
   margin-bottom: 4%; }
 
@@ -83,15 +83,16 @@ article {
   display: block;
   margin: 0 auto; }
 
+.fotosBorder {
+  border: solid 2px #e7e7e7; }
+
+/* Divisor */
 .b-example-divider {
   height: 2rem;
   background-color: rgba(0, 0, 0, 0.1);
   border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
   box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15); }
-
-.fotosBorder {
-  border: solid 2px #e7e7e7; }
 
 /* Titulos */
 h1 {
@@ -225,6 +226,7 @@ h5 {
 .testi-item h3 {
   text-transform: capitalize; }
 
+/* Iconos Redes Sociales */
 .fa {
   padding: 5px;
   width: 30px;
