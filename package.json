@@ -1,14 +1,14 @@
 {
   "name": "miweb",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio de trabajo personal de Nicolas Mazzini",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/estilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Nicolas Mazzini",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
