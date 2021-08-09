@@ -147,6 +147,33 @@ h5 {
 .galeriaArticulos__IMG:hover {
   opacity: 100%; }
 
+.galeriaEdicion {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin: 0 100px; }
+
+/* Videos */
+.galeriaVideos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  margin: 0 100px; }
+
+.video-responsive {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative; }
+
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
 /* Galerias Portfolio */
 .nombreGaleria {
   font-size: 80px;
@@ -244,9 +271,7 @@ h5 {
   h3 {
     font-size: 50px; }
   h5 {
-    font-size: 30px;
-    font-weight: bolder;
-    text-transform: uppercase; }
+    font-size: 30px; }
   .card-title {
     font-size: 25px; }
   /* GALERIAS */
@@ -261,8 +286,18 @@ h5 {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     margin: 0 5px; }
+  .galeriaEdicion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 5px; }
+  .galeriaVideos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 5px; }
   .galeriaArticulos img {
     max-width: 100%; }
+  .nombreGaleria {
+    font-size: 60px; }
   /* Footer */
   footer {
     background-color: #000000;
@@ -280,16 +315,6 @@ h5 {
 @media (max-width: 800px) {
   body {
     font-size: 20px; }
-  /* Titulos */
-  h1 {
-    font-size: 60px;
-    letter-spacing: 0; }
-  h3 {
-    font-size: 50px; }
-  h5 {
-    font-size: 35px;
-    font-weight: bolder;
-    text-transform: uppercase; }
   /* Galerias */
   .galeriaCont {
     display: grid;
@@ -302,6 +327,8 @@ h5 {
     justify-content: center; }
   .galeriaArticulos img {
     max-width: 100%; }
+  .nombreGaleria {
+    font-size: 50px; }
   /* Footer */
   footer {
     background-color: #000000;
@@ -320,7 +347,9 @@ h5 {
     font-size: 40px;
     letter-spacing: 0; }
   h3 {
-    font-size: 30px; }
+    font-size: 25px; }
+  h5 {
+    font-size: 20px; }
   /* Galerias */
   .galeriaCont {
     display: grid;
@@ -331,6 +360,17 @@ h5 {
     display: grid;
     grid-template-columns: 400px;
     justify-content: center; }
+  .galeriaEdicion {
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: center; }
+  .galeriaVideos {
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: center;
+    margin: 0 5px; }
+  .nombreGaleria {
+    font-size: 40px; }
   /* Footer */
   footer {
     background-color: #000000;
@@ -343,14 +383,12 @@ h5 {
     font-size: 16px; }
   /* Titulos */
   h1 {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 0; }
   h3 {
-    font-size: 30px; }
+    font-size: 22px; }
   h5 {
-    font-size: 25px;
-    font-weight: bold;
-    text-transform: uppercase; }
+    font-size: 16px; }
   /* Galerias */
   .galeriaCont {
     display: grid;
@@ -361,6 +399,12 @@ h5 {
     display: grid;
     grid-template-columns: 300px;
     justify-content: center; }
+  .galeriaEdicion {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center; }
+  .nombreGaleria {
+    font-size: 30px; }
   /* Footer */
   footer {
     background-color: #000000;

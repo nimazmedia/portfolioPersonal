@@ -17,8 +17,6 @@
 
     h5 {
         font-size: 30px;
-        font-weight: bolder;
-        text-transform: uppercase;
     }
 
     .card-title {
@@ -41,8 +39,24 @@
         margin: 0 5px;
     }
 
+    .galeriaEdicion {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 5px;
+    }
+
+    .galeriaVideos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 5px;
+    }
+
     .galeriaArticulos img {
         max-width: 100%;
+    }
+
+    .nombreGaleria {
+        font-size: 60px;
     }
     
     /* Footer */ 
@@ -71,22 +85,6 @@
     body {
         font-size: 20px;
     }
-    
-    /* Titulos */ 
-    h1 {
-        font-size: 60px;
-        letter-spacing: 0;
-    }
-    
-    h3 {
-        font-size: 50px;
-    }
-
-    h5 {
-        font-size: 35px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
 
     /* Galerias */ 
     .galeriaCont {
@@ -104,6 +102,10 @@
 
     .galeriaArticulos img {
         max-width: 100%;
+    }
+
+    .nombreGaleria {
+        font-size: 50px;
     }
     
     /* Footer */ 
@@ -132,7 +134,11 @@
     }
     
     h3 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
     }
     
     /* Galerias */ 
@@ -147,6 +153,23 @@
         display: grid;
         grid-template-columns: 400px;
         justify-content: center;
+    }
+
+    .galeriaEdicion {
+        display: grid;
+        grid-template-columns: 400px;
+        justify-content: center;
+    }
+
+    .galeriaVideos {
+        display: grid;
+        grid-template-columns: 400px;
+        justify-content: center;
+        margin: 0 5px;
+    }
+
+    .nombreGaleria {
+        font-size: 40px;
     }
     
     /* Footer */ 
@@ -165,18 +188,16 @@
     
     /* Titulos */ 
     h1 {
-        font-size: 40px;
+        font-size: 30px;
         letter-spacing: 0;
     }
     
     h3 {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     h5 {
-        font-size: 25px;
-        font-weight: bold;
-        text-transform: uppercase;
+        font-size: 16px;
     }
     
     /* Galerias */ 
@@ -191,6 +212,16 @@
         display: grid;
         grid-template-columns: 300px;
         justify-content: center;
+    }
+
+    .galeriaEdicion {
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: center;
+    }
+
+    .nombreGaleria {
+        font-size: 30px;
     }
     
     /* Footer */ 
